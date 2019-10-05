@@ -41,3 +41,5 @@ function middleSquareMethod(){
     return parseInt(result);
 
 }
+
+With just three lines of code, we could generate a maximum of 8n numbers for an n-digit number after which the sequence repeats itself. There is a pitfall though. Some seeds can cause the algorithm to have a shorter cycle like the seed 25, which causes the algorithm to repeat 25 indefinitely.
